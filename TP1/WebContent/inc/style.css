@@ -1,0 +1,73 @@
+legend {
+	font-weight: bold;
+	color: #0568CD;
+}
+
+fieldset {
+	border-color: #000;
+	padding: 10px;
+	margin: 10px;
+	width: auto;
+}
+
+.requis {
+	color: red;
+}
+
+form label:not(.skipLabels) {
+	float: left;
+	width: 200px;
+	margin: 3px 0px 0px 0px;
+}
+
+form input:not([type=radio]) {
+	margin: 3px 3px 0px 0px;
+	border: 1px #999 solid;
+}
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+	width : 100%;
+	margin : 10px;
+	
+}
+th {
+		color: #0568CD;
+		border: 2px solid black;
+		text-align: center;
+		padding: 10px;
+}
+td {
+	border: 2px solid black;
+	text-align: center;
+	padding: 10px;
+}
+select {
+	width: 200px;
+}
+.action{
+	color: #d70000;
+	border: 2px solid #d70000;
+}
+tr:nth-child(even){
+	background-color: #e1e1e1;
+	color: black;
+}
+.erreur {
+	color: #900;
+}
+
+.succes {
+	color: #090;
+}
+
+.menu {
+	padding: 10px;
+	margin : 10px;
+	border: 2px #0568CD solid;
+}
+
+.info {
+	font-style: italic;
+	color: #E8A22B;
+}
